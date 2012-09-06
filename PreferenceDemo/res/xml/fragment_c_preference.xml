@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+	  	android:key="example_fragment_c"
+	  	android:title="example_c">
+	  	<PreferenceScreen
+	  	    android:key="example_screen"
+	  	    android:title="FragmentC"
+	  	    android:summary="C" >
+	  	 </PreferenceScreen>
+  	</PreferenceCategory>
+</PreferenceScreen>

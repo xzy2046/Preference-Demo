@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Add this item into Settings preference-headers file. You can change values according to you needs -->
+    <header
+        android:id="@+id/fragment_a"
+        android:fragment="xzy.android.example.preferencedemo.FragMentA"
+        android:icon="@drawable/ic_launcher"
+        android:summary="FragmentA"
+        android:title="FragmentA" />
+    <header
+        android:id="@+id/fragment_b"
+        android:fragment="xzy.android.example.preferencedemo.FragmentB"
+        android:icon="@drawable/ic_launcher"
+        android:summary="FragmentB"
+        android:title="FragmentB" />
+    <header
+        android:id="@+id/fragment_c"
+        android:fragment="xzy.android.example.preferencedemo.FragmentC"
+        android:icon="@drawable/ic_launcher"
+        android:summary="FragmentC"
+        android:title="FragmentC" />
+
+</preference-headers>
